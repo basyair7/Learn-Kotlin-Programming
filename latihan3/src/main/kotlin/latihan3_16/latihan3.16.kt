@@ -1,6 +1,6 @@
 package com.basyair7.latihan3_16
 
-// looping
+// looping while
 
 fun main() {
 //    test1()

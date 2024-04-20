@@ -1,13 +1,17 @@
 package com.basyair7
 
-private fun main() {
-    val deskripsi = """
-    pada proyek ini, belajar tentang cara membuat class
-    pada kotlin dan memahami structure class, Constructor Class, Visibility Modifiers,
-    Overloading, Inheritances, Interfaces, Extensions, Nullable Receiver,
-    Exception dan Exception Handling
-    """.trimIndent()
+private class Main {
+    companion object {
+        val deskripsi: String = """
+            pada proyek ini, belajar tentang cara membuat class
+            pada kotlin dan memahami structure class, Constructor Class, Visibility Modifiers,
+            Overloading, Inheritances, Interfaces, Extensions, Nullable Receiver,
+            Exception dan Exception Handling
+        """.trimIndent()
 
-    println(deskripsi)
-
+        @JvmStatic
+        fun main(array: Array<String>) {
+            println(deskripsi)
+        }
+    }
 }

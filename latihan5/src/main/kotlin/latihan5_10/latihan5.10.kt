@@ -26,8 +26,12 @@ private fun test2 () {
 private fun test3() {
     val countNumberList = numberList.count()
     println(countNumberList)
-    // atau bisa juga untuk menghitung list yang habis dibagi 2
+    // atau bisa juga untuk menghitung index yang habis dibagi 2
     println(numberList.count{ it % 2 == 0})
 }
 
-private fun main() = test3()
+private fun main() {
+//    test1()
+//    test2()
+    test3()
+}

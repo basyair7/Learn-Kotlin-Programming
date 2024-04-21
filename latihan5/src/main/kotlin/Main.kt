@@ -5,7 +5,7 @@ Ini merupakan projects latihan ke 5 yaitu Special Class dan Collection
 pada project ini ada terdiri dari penggunaan data class, 
 copy and modify data class, destructuring declarations, nested class & inner class,
 Enum class, Sealed class, Singleton Object, Companion Object & Anonymous class,
-List, Set dan Map, Collections Operators, Slice, Distinct, dan Chuncked,
+Collections Operators, Slice, Distinct, dan Chuncked,
 dan Sequences
 """.trimIndent()
 
